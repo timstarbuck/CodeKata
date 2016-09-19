@@ -12,6 +12,8 @@ namespace Kata04_DataMungingPartOne
     {
         static void Main(string[] args)
         {
+            // excercise goal = list day with smallest spread in temperature
+
             List<WeatherRecord> records = FetchData("weather.dat");
 
             var minSpread = records.OrderBy(r => r.MaxTemp - r.MinTemp).First();

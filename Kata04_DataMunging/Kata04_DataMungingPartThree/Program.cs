@@ -12,22 +12,26 @@ namespace Kata04_DataMungingPartThree
     {
         static void Main(string[] args)
         {
+            // excercise goal = take part one and two and factor out as much common code as possible, leaving you with two smaller programs and some kind of shared functionality.
+
+            // football
             TryParseRecDelegate<FootballRecord> footballDel = FootballRecord.TryParseFromLine<FootballRecord>;
             List<FootballRecord> records = FetchData<FootballRecord>("football.dat", footballDel);
-
             var minSpread = records.OrderBy(r => Math.Abs(r.PointsFor - r.PointsAgainst)).First();
-
             Console.WriteLine($"Team with min spread = {minSpread.TeamName}");
 
+            // weather
             TryParseRecDelegate<WeatherRecord> weatherDel = WeatherRecord.TryParseFromLine<WeatherRecord>;
             List<WeatherRecord> wRecords = FetchData("weather.dat", weatherDel);
-
             var minSpreadTemp = wRecords.OrderBy(r => r.MaxTemp - r.MinTemp).First();
-
             Console.WriteLine($"Day with min spread = {minSpreadTemp.Day}");
 
             Console.ReadLine();
 
+
+            // was able to re-factor the FetchData method to use generics 
+            // and work for either file/class type.
+            // bit of a toss up on readability as it adds some noise creating the delegate to pass to FetchData
 
         }
 

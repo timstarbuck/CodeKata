@@ -12,6 +12,8 @@ namespace Kata04_DataMungingPartTwo
     {
         static void Main(string[] args)
         {
+            // excercise goal = list team with smallest spread between points for and against
+
             List<FootballRecord> records = FetchData("football.dat");
 
             var minSpread = records.OrderBy(r => Math.Abs(r.PointsFor - r.PointsAgainst)).First();
