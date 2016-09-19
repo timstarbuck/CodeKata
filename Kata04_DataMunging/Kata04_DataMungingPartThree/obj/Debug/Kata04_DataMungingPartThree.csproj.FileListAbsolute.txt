@@ -1,0 +1,8 @@
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\bin\Debug\football.dat
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\bin\Debug\weather.dat
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\bin\Debug\Kata04_DataMungingPartThree.exe.config
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\bin\Debug\Kata04_DataMungingPartThree.exe
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\bin\Debug\Kata04_DataMungingPartThree.pdb
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\obj\Debug\Kata04_DataMungingPartThree.csprojResolveAssemblyReference.cache
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\obj\Debug\Kata04_DataMungingPartThree.exe
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartThree\obj\Debug\Kata04_DataMungingPartThree.pdb

@@ -1,0 +1,6 @@
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\bin\Debug\Kata04_DataMungingPartTwo.exe.config
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\bin\Debug\football.dat
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\bin\Debug\Kata04_DataMungingPartTwo.exe
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\bin\Debug\Kata04_DataMungingPartTwo.pdb
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\obj\Debug\Kata04_DataMungingPartTwo.exe
+C:\Users\costws.MERCURY\Documents\GitHub\CodeKata\Kata04_DataMunging\Kata04_DataMungingPartTwo\obj\Debug\Kata04_DataMungingPartTwo.pdb
