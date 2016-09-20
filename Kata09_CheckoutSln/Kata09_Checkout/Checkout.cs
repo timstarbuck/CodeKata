@@ -55,32 +55,25 @@ namespace Kata09_Checkout
                     int quantity = i.Value;
                     if (rule.GroupPrice != null)
                     {
-                        while (quantity >= rule.GroupPrice.Quantity)
-                        {
-                            total += rule.GroupPrice.GroupPrice;
-                            quantity -= rule.GroupPrice.Quantity;
-                        }
+                        total += CalculateGroupPrice(rule, ref quantity);
                     }
                     total += (quantity * rule.ItemPrice);
                 }
             }
             return total;
         }
+
+        private double CalculateGroupPrice(PriceRule rule, ref int quantity)
+        {
+            double total = 0;
+            while (quantity >= rule.GroupPrice.Quantity)
+            {
+                total += rule.GroupPrice.GroupPrice;
+                quantity -= rule.GroupPrice.Quantity;
+            }
+            return total;
+        }
     }
 
-    public class PriceRule
-    {
-        public string ItemSku { get; set; }
 
-        public double ItemPrice { get; set; }
-
-        public GroupPriceRule GroupPrice { get; set; }
-    }
-
-    public class GroupPriceRule
-    {
-        public int Quantity { get; set; }
-
-        public double GroupPrice { get; set; }
-    }
 }
